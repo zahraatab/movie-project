@@ -1,17 +1,16 @@
 *{
-    margin: 10px;
-    padding:0;
-    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    background:#111827;
-    font-family:Arial, sans-serif;
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111827;
+    font-family: Arial, sans-serif;
 }
 
 .card{
@@ -38,7 +37,7 @@ body{
 
 .details p{
     margin: 10px 0;
-    font: size 18px;
+    font-size: 18px;
 }
 
 .button{
@@ -51,8 +50,7 @@ body{
     padding: 14px 28px;
     border-radius: 12px;
     font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0 0 15px rgba(37,99,235,.5);
+    box-shadow: 0 0 15px rgba(83, 0, 250, 0.406);
 }
 
 .button:hover{
