@@ -13,15 +13,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.card {
+.card{
     width: 450px;
     background: black;
-    color: white;
-    border-radius: 25px;
-    padding: 30px;
+    color: whitesmoke;
+    border-radius:25px;
+    padding:30px;
     text-align: center;
-    box-shadow: 
-    0 10px 30px white;
+    box-shadow: 0 10px 30px white;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 .card img{
@@ -39,7 +40,9 @@ body {
     font-size: 18px;
 }
 
-.button {
+.button{
+    display: inline block;
+    font-size: 18px;
     display: inline-block;
     text-decoration: none;
     background: #2563eb;
@@ -50,9 +53,8 @@ body {
     box-shadow: 0 0 15px rgba(83, 0, 250, 0.406);
 }
 
-.button:hover {
+.button:hover{
     transform: translateY(-3px);
 
-    box-shadow: 0 0 30px rgba(0, 157, 255, 0.9);
+    box-shadow: 0 0 30px rgba(37,99,235,.9);
 }
-
