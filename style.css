@@ -20,7 +20,9 @@ body{
     border-radius:25px;
     padding:30px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba (0,0,0,0,25);
+    box-shadow: 0 10px 30px rgba white;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .card img{
@@ -29,8 +31,8 @@ body{
     margin: 20px 0;
 }
 
-.details{
-    margin: 10px 0;
+.details {
+    margin: 20px 0;
 }
 
 .details p{
@@ -40,6 +42,8 @@ body{
 
 .button{
     display: inline block;
+    font-size: 18px;
+    display: inline-block;
     text-decoration: none;
     background: #2563eb;
     color: white;
